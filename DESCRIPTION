@@ -7,7 +7,7 @@ Maintainer: Emily Carter <emc4014@med.cornell.edu>
 Description: The algorithm divides a continuous data stream to discrete chunks of time, for example a day, evaluates the data quality based on users’ engagement with their device, and attaches a missing or non-missing label on each observation.
 License: GPL-2 
 Depends: R (>= 3.5.0)
-Imports: caret, class, base, data.table, dplyr, ggplot2, hms, imputeTS, magrittr, purrr, stats
+Imports: caret, class, data.table, dplyr, ggplot2, hms, imputeTS, magrittr, purrr, stats
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
