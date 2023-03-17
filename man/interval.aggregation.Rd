@@ -25,7 +25,7 @@ interval.aggregation(
 
 \item{timestamp}{Name of time variable in the data set}
 
-\item{format}{Date/time format of timestamp. Default is "%Y-%m-%dT%H:%M:%S" (i.e. yyyy-mm-dd hh:mm:ss).}
+\item{format}{Date/time format of timestamp. Default is yyyy-mm-dd hh:mm:ss.}
 
 \item{interval}{The interval of time in minute. Default is 60 (i.e. The measurement is evaluated every hour.)}
 

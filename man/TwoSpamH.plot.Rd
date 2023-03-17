@@ -23,6 +23,8 @@ TwoSpamH.plot(
 \item{ylab}{The label for y axis}
 
 \item{title}{The plot title}
+
+\item{variable}{The variable that is being plotted}
 }
 \value{
 A ggplot object that visualize the algorithm's reduced feature space.

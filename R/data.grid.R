@@ -8,6 +8,7 @@
 #'
 #' @importFrom hms hms
 #' @importFrom hms as.hms
+#' @importFrom stats splinefun
 #'
 #' @export
 
@@ -60,7 +61,7 @@ data.grid = function(data, variable, interval = 3, na.missing = FALSE, smoothing
   out11_2 = out11[,tseq0 %in% tseq]
 
   Date = unique(data$date)
-  DayofWeek = factor(weekdays(Date), level = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
+  DayofWeek = factor(weekdays(Date), levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
   Day = Date - Date[1] + as.numeric(DayofWeek[1]) # Calculate days
   Week = as.numeric(ceiling(Day/7))
 

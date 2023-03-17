@@ -7,6 +7,7 @@
 #' @param xlab The label for x axis
 #' @param ylab The label for y axis
 #' @param title The plot title
+#' @param variable The variable that is being plotted
 #'
 #' @importFrom magrittr %>%
 #' @importFrom dplyr select

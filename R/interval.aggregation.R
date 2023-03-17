@@ -4,7 +4,7 @@
 #' @param variable Name of variable in the data set you would like to re-structure
 #' @param ID Name of ID variable in the data set
 #' @param timestamp Name of time variable in the data set
-#' @param format Date/time format of timestamp. Default is "%Y-%m-%dT%H:%M:%S" (i.e. yyyy-mm-dd hh:mm:ss).
+#' @param format Date/time format of timestamp. Default is yyyy-mm-dd hh:mm:ss.
 #' @param interval The interval of time in minute. Default is 60 (i.e. The measurement is evaluated every hour.)
 #' @param aggregatefun Function used for aggregation. Default is sum.
 #' @param is.na.zero If TRUE, NA is considered as 0. If FALSE, the NA is considered as missing. Default is TRUE.

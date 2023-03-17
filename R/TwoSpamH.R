@@ -27,11 +27,27 @@
 #' @importFrom class knn
 #' @importFrom data.table :=
 #' @importFrom dplyr pull
+#' @importFrom stats princomp
+#' @importFrom stats quantile
+#' @importFrom stats cor
+
 #'
 #' @return Either a dataframe object with filtered \code{variable} or a list for visualization of the labelling algorithm.
 #'
 #' @export
 #'
+#'@examples
+#' # load in the built-in dataset
+#' data(full_dat)
+#'
+#' # run the function
+#' results <- TwoSpamH(full_dat,
+#' variable = "filtered_time_at_home",
+#' PC.vars = "filtered_step_count",
+#' step2.var = c("filtered_travel_diameter","filtered_conversation_percent",
+#' "filtered_total_location_duration"),
+#' thresholds = list(low = c(0.2), high = c(0.6)),
+#' num.neighbor = 20)
 
 
 TwoSpamH = function(data,
