@@ -30,7 +30,6 @@
 #' @importFrom stats princomp
 #' @importFrom stats quantile
 #' @importFrom stats cor
-
 #'
 #' @return Either a dataframe object with filtered \code{variable} or a list for visualization of the labelling algorithm.
 #'
