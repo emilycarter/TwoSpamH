@@ -1,11 +1,10 @@
 Package: TwoSpamH
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A two-stage algorithm for processing passively sensed mHealth data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Hongzhe Zhang, Jihui Lee
+Maintainer: Emily Carter <emc4014@med.cornell.edu>
+Description: The algorithm divides a continuous data stream to discrete chunks of time, for example a day, evaluates the data quality based on users’ engagement with their device, and attaches a missing or non-missing label on each observation. 
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.3
