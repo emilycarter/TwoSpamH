@@ -16,4 +16,6 @@
 #'    filtered_radius_of_gyration}{mHealth data collected}
 #' }
 #' @source Weill Cornell Advanced Laboratory for Accelerating the Reach and Impact of Treatment for Mid- and Late-Life Depression (ALACRITY) Research Center
+#' data(full_dat)
+#'
 "full_dat"

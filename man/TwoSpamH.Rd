@@ -32,7 +32,7 @@ TwoSpamH(
 
 \item{num.neighbor}{Number of the neighbors considered by each unlabelled data points in stage 2}
 
-\item{check.cor}{Whether the highly correlated variables should be removed when performing stage 2 of the TSknn. If no, input should be NULL. If yes, input shou be the correlation threshold for variables to be removed.}
+\item{check.cor}{Whether the highly correlated variables should be removed when performing stage 2 of the 2SpamH algorithm. If no, input should be NULL. If yes, input shou be the correlation threshold for variables to be removed.}
 
 \item{plot.data}{If TRUE, the outputted results are for plotting. If FALSE, the function outputs the original data frame where the filtered variable is labelled with extra NAs.}
 

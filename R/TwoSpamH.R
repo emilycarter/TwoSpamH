@@ -9,7 +9,7 @@
 #' @param imp.method A function which serves as the imputation method for missing data in PC vars. This function should take a vector with missing and retun a vector without.
 #' @param thresholds A list of which the first element contains the 'low' quantile thresholds for each group of PC var, and the second for 'high'. Each element in it should be a vector either of the same length as the number of PC var groups or 1.
 #' @param num.neighbor Number of the neighbors considered by each unlabelled data points in stage 2
-#' @param check.cor Whether the highly correlated variables should be removed when performing stage 2 of the TSknn. If no, input should be NULL. If yes, input shou be the correlation threshold for variables to be removed.
+#' @param check.cor Whether the highly correlated variables should be removed when performing stage 2 of the 2SpamH algorithm. If no, input should be NULL. If yes, input shou be the correlation threshold for variables to be removed.
 #' @param plot.data If TRUE, the outputted results are for plotting. If FALSE, the function outputs the original data frame where the filtered variable is labelled with extra NAs.
 #' @param seed The seed to be set, default is NULL.
 #'
