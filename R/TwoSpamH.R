@@ -97,7 +97,7 @@ TwoSpamH = function(data,
   if(is.numeric(variable)){
     variable = names(data)[variable]
   }
-  ex.usage.imp = data %>%  dplyr::ungroup() %>%
+  ex.usage.imp = data %>%
     dplyr::select(all_of(c(var.vec, variable, step2.var))) %>%
     mutate_if(is.numeric, imp.method)
 
