@@ -50,3 +50,4 @@ TwoSpamH.plot = function(TwoSpamH.output,
     theme_bw()
 
 }
+

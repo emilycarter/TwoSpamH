@@ -7,8 +7,6 @@
 TwoSpamH.plot(
   TwoSpamH.output,
   to.plot = c(1, 2),
-  xlab = "PC 1",
-  ylab = "PC 2",
   title = "Validity Distribition in the Constructed Feature Space",
   variable = "Filtered Variable"
 )
@@ -17,10 +15,6 @@ TwoSpamH.plot(
 \item{TwoSpamH.output}{The output from the function TwoSpamH when the \code{plot.data} is set to TRUE}
 
 \item{to.plot}{A length 2 vector that indicates which principle components are to be plotted}
-
-\item{xlab}{The label for x axis}
-
-\item{ylab}{The label for y axis}
 
 \item{title}{The plot title}
 
