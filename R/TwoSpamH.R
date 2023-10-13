@@ -58,12 +58,6 @@ TwoSpamH = function(data,
                     num.neighbor = 5,
                     check.cor = 0.8, plot.data = F, seed = NULL){
 
-  if (!(length(intersect(variable,step2.var))==0))
-    stop('There should be no overlap between step2.var and the variable to be labelled')
-  if (!(length(intersect(PC.vars,variable))==0))
-    stop('There should be no overlap between PC.vars and the variable to be labelled')
-  if (!(length(intersect(PC.vars,step2.var))==0))
-    stop('There should be no overlap between PC.vars and step2.var')
   if (any(!is.numeric(thresholds$high)) || any(!is.numeric(thresholds$low)))
     stop('threshold values must be numerical')
   if (any(thresholds$high < 0) || any(thresholds$high > 1) || any(thresholds$low < 0) || any(thresholds$low > 1))
